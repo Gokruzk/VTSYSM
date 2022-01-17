@@ -1,0 +1,135 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form2
+    Inherits System.Windows.Forms.Form
+
+    'Form reemplaza a Dispose para limpiar la lista de componentes.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Requerido por el Diseñador de Windows Forms
+    Private components As System.ComponentModel.IContainer
+
+    'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
+    'Se puede modificar usando el Diseñador de Windows Forms.  
+    'No lo modifique con el editor de código.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TXT_COD = New System.Windows.Forms.TextBox()
+        Me.TXT_PASS = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.BT_CLOSE = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.Location = New System.Drawing.Point(73, 162)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "INGRESAR"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'TXT_COD
+        '
+        Me.TXT_COD.Location = New System.Drawing.Point(168, 89)
+        Me.TXT_COD.MaxLength = 8
+        Me.TXT_COD.Name = "TXT_COD"
+        Me.TXT_COD.Size = New System.Drawing.Size(100, 20)
+        Me.TXT_COD.TabIndex = 1
+        Me.TXT_COD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TXT_PASS
+        '
+        Me.TXT_PASS.Location = New System.Drawing.Point(168, 121)
+        Me.TXT_PASS.MaxLength = 8
+        Me.TXT_PASS.Name = "TXT_PASS"
+        Me.TXT_PASS.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TXT_PASS.Size = New System.Drawing.Size(100, 20)
+        Me.TXT_PASS.TabIndex = 2
+        Me.TXT_PASS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
+        Me.Label5.Location = New System.Drawing.Point(59, 26)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(199, 25)
+        Me.Label5.TabIndex = 89
+        Me.Label5.Text = "ADMINISTRADOR"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label2.Location = New System.Drawing.Point(12, 119)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(129, 20)
+        Me.Label2.TabIndex = 92
+        Me.Label2.Text = "CONTRASEÑA"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label1.Location = New System.Drawing.Point(12, 89)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(91, 20)
+        Me.Label1.TabIndex = 91
+        Me.Label1.Text = "USUARIO"
+        '
+        'BT_CLOSE
+        '
+        Me.BT_CLOSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BT_CLOSE.Location = New System.Drawing.Point(154, 162)
+        Me.BT_CLOSE.Name = "BT_CLOSE"
+        Me.BT_CLOSE.Size = New System.Drawing.Size(75, 23)
+        Me.BT_CLOSE.TabIndex = 93
+        Me.BT_CLOSE.Text = "CERRAR"
+        Me.BT_CLOSE.UseVisualStyleBackColor = True
+        '
+        'Form2
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ClientSize = New System.Drawing.Size(303, 210)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.BT_CLOSE)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.TXT_PASS)
+        Me.Controls.Add(Me.TXT_COD)
+        Me.Controls.Add(Me.Button1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.KeyPreview = True
+        Me.Name = "Form2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "VTSYSM"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents Button1 As Button
+    Friend WithEvents TXT_COD As TextBox
+    Friend WithEvents TXT_PASS As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents BT_CLOSE As System.Windows.Forms.Button
+End Class

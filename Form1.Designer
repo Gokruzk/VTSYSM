@@ -1,0 +1,218 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form reemplaza a Dispose para limpiar la lista de componentes.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Requerido por el Diseñador de Windows Forms
+    Private components As System.ComponentModel.IContainer
+
+    'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
+    'Se puede modificar usando el Diseñador de Windows Forms.  
+    'No lo modifique con el editor de código.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TXT_COD = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.BT_ACEPTAR = New System.Windows.Forms.Button()
+        Me.LB_INST = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TXT_PASS = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.BT_AD = New System.Windows.Forms.Button()
+        Me.BT_ACEPTAR2 = New System.Windows.Forms.Button()
+        Me.BT_CLOSE = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'Label2
+        '
+        Me.Label2.Image = CType(resources.GetObject("Label2.Image"), System.Drawing.Image)
+        Me.Label2.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label2.Location = New System.Drawing.Point(583, 53)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(153, 178)
+        Me.Label2.TabIndex = 86
+        '
+        'Label9
+        '
+        Me.Label9.Image = CType(resources.GetObject("Label9.Image"), System.Drawing.Image)
+        Me.Label9.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label9.Location = New System.Drawing.Point(33, 53)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(131, 169)
+        Me.Label9.TabIndex = 85
+        '
+        'Label5
+        '
+        Me.Label5.Image = CType(resources.GetObject("Label5.Image"), System.Drawing.Image)
+        Me.Label5.Location = New System.Drawing.Point(311, 102)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(143, 157)
+        Me.Label5.TabIndex = 84
+        '
+        'TXT_COD
+        '
+        Me.TXT_COD.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TXT_COD.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_COD.Location = New System.Drawing.Point(306, 298)
+        Me.TXT_COD.MaxLength = 10
+        Me.TXT_COD.Name = "TXT_COD"
+        Me.TXT_COD.Size = New System.Drawing.Size(154, 26)
+        Me.TXT_COD.TabIndex = 81
+        Me.TXT_COD.Tag = ""
+        Me.TXT_COD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label1.Location = New System.Drawing.Point(194, 302)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(81, 20)
+        Me.Label1.TabIndex = 80
+        Me.Label1.Text = "CÉDULA"
+        '
+        'BT_ACEPTAR
+        '
+        Me.BT_ACEPTAR.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BT_ACEPTAR.Location = New System.Drawing.Point(306, 329)
+        Me.BT_ACEPTAR.Name = "BT_ACEPTAR"
+        Me.BT_ACEPTAR.Size = New System.Drawing.Size(75, 23)
+        Me.BT_ACEPTAR.TabIndex = 79
+        Me.BT_ACEPTAR.Text = "ACEPTAR"
+        Me.BT_ACEPTAR.UseVisualStyleBackColor = True
+        '
+        'LB_INST
+        '
+        Me.LB_INST.AutoSize = True
+        Me.LB_INST.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.LB_INST.Location = New System.Drawing.Point(123, 13)
+        Me.LB_INST.Name = "LB_INST"
+        Me.LB_INST.Size = New System.Drawing.Size(138, 24)
+        Me.LB_INST.TabIndex = 90
+        Me.LB_INST.Text = "INSTITUCION"
+        Me.LB_INST.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Label4.Location = New System.Drawing.Point(247, 48)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(273, 24)
+        Me.Label4.TabIndex = 89
+        Me.Label4.Text = "SISTEMA DE VOTACIONES"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'TXT_PASS
+        '
+        Me.TXT_PASS.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TXT_PASS.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXT_PASS.Location = New System.Drawing.Point(306, 329)
+        Me.TXT_PASS.MaxLength = 10
+        Me.TXT_PASS.Name = "TXT_PASS"
+        Me.TXT_PASS.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TXT_PASS.Size = New System.Drawing.Size(154, 26)
+        Me.TXT_PASS.TabIndex = 91
+        Me.TXT_PASS.Tag = ""
+        Me.TXT_PASS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TXT_PASS.Visible = False
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label3.Location = New System.Drawing.Point(171, 330)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(129, 20)
+        Me.Label3.TabIndex = 92
+        Me.Label3.Text = "CONTRASEÑA"
+        Me.Label3.Visible = False
+        '
+        'BT_AD
+        '
+        Me.BT_AD.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BT_AD.Location = New System.Drawing.Point(473, 319)
+        Me.BT_AD.Name = "BT_AD"
+        Me.BT_AD.Size = New System.Drawing.Size(101, 23)
+        Me.BT_AD.TabIndex = 93
+        Me.BT_AD.Text = "ADMINISTRAR"
+        Me.BT_AD.UseVisualStyleBackColor = True
+        '
+        'BT_ACEPTAR2
+        '
+        Me.BT_ACEPTAR2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BT_ACEPTAR2.Location = New System.Drawing.Point(306, 362)
+        Me.BT_ACEPTAR2.Name = "BT_ACEPTAR2"
+        Me.BT_ACEPTAR2.Size = New System.Drawing.Size(75, 23)
+        Me.BT_ACEPTAR2.TabIndex = 94
+        Me.BT_ACEPTAR2.Text = "ACEPTAR"
+        Me.BT_ACEPTAR2.UseVisualStyleBackColor = True
+        Me.BT_ACEPTAR2.Visible = False
+        '
+        'BT_CLOSE
+        '
+        Me.BT_CLOSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BT_CLOSE.Location = New System.Drawing.Point(385, 329)
+        Me.BT_CLOSE.Name = "BT_CLOSE"
+        Me.BT_CLOSE.Size = New System.Drawing.Size(75, 23)
+        Me.BT_CLOSE.TabIndex = 95
+        Me.BT_CLOSE.Text = "CERRAR"
+        Me.BT_CLOSE.UseVisualStyleBackColor = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ClientSize = New System.Drawing.Size(765, 374)
+        Me.Controls.Add(Me.BT_CLOSE)
+        Me.Controls.Add(Me.BT_ACEPTAR2)
+        Me.Controls.Add(Me.BT_AD)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.TXT_PASS)
+        Me.Controls.Add(Me.LB_INST)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.TXT_COD)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.BT_ACEPTAR)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.KeyPreview = True
+        Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "VTSYSM"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents TXT_COD As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents BT_ACEPTAR As Button
+    Friend WithEvents LB_INST As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents TXT_PASS As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents BT_AD As Button
+    Friend WithEvents BT_ACEPTAR2 As Button
+    Friend WithEvents BT_CLOSE As Button
+End Class
