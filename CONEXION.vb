@@ -6,10 +6,7 @@ Module CONEXIONES
     Public comm, comm1, comm2, comm3, comm4, comm5, comm6, comm7, comm8, comm9 As New MySqlCommand
     Public dr, dr1, dr2, dr3, dr4, dr5 As MySqlDataReader
     Public estado, status, query, query1, query2, query3, query4, query5, query6, query7, query8, query9, nom_inst, num_listas, cedulap, nombresp, apellidosp, cedulav, nombresv, apellidosv As String
-    'Public ruta1 As String = "C:\Users\USER1\Desktop\VTSYSM - NUEVA INTERFAZ\VTSYSM\listas\a.jpg"
-    'Public ruta2 As String = "C:\Users\USER1\Desktop\VTSYSM - NUEVA INTERFAZ\VTSYSM\listas\b.jpg"
-    'Public ruta3 As String = "C:\Users\USER1\Desktop\VTSYSM - NUEVA INTERFAZ\VTSYSM\listas\c.jpg"
-    'Public ruta4 As String = "C:\Users\USER1\Desktop\VTSYSM - NUEVA INTERFAZ\VTSYSM\sello\sello.jpg"
+
     Public ruta1 As String = Application.StartupPath & "\listas\a.jpg"
     Public ruta2 As String = Application.StartupPath & "\listas\b.jpg"
     Public ruta3 As String = Application.StartupPath & "\listas\c.jpg"
@@ -282,7 +279,7 @@ Module CONEXIONES
             End If
 
         Catch ex As Exception
-            'MsgBox(ex.Message)
+            MsgBox(ex.Message)
         End Try
 
     End Sub
