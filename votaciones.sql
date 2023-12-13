@@ -76,9 +76,5 @@ LISTA char(1)
 );
 
 insert into institucion values(1, "-editar nombre de institucion en configuracion-");
-insert into blancos values(default, 1);
-insert into nulos values(default, 1);
-
-
-
-
+insert into blancos values(default, 0);
+insert into nulos values(default, 0);
